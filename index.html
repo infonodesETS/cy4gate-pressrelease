@@ -221,10 +221,25 @@
       padding: .3rem .75rem;
     }
 
-    #pdf-frame {
+    #pdf-text {
       flex: 1;
-      border: none;
-      background: #e8ecf3;
+      overflow-y: auto;
+      padding: 1.5rem 2rem;
+      background: #f3f6fa;
+      white-space: pre-wrap;
+      font-family: 'Georgia', serif;
+      font-size: 1rem;
+      line-height: 1.75;
+      color: #1e2d3d;
+    }
+    #pdf-text::-webkit-scrollbar { width: 6px; }
+    #pdf-text::-webkit-scrollbar-track { background: transparent; }
+    #pdf-text::-webkit-scrollbar-thumb { background: #b0c4de; border-radius: 4px; }
+
+    #pdf-text mark {
+      background: #facc15;
+      padding: 0 .15em;
+      border-radius: 2px;
     }
 
     #placeholder {
@@ -293,40 +308,50 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
       <p class="fs-min">Seleziona un comunicato dalla sidebar</p>
     </div>
-    <iframe id="pdf-frame" style="display:none" title="Comunicato stampa"></iframe>
+    <div id="pdf-text" style="display:none"></div>
   </div>
 
 </div>
 
 <script src="data.js"></script>
 <script>
-  const listWrap = document.getElementById('list-wrap');
+  const listWrap    = document.getElementById('list-wrap');
   const searchInput = document.getElementById('search-input');
   const resultCount = document.getElementById('result-count');
-  const emptyMsg = document.getElementById('empty-msg');
-  const contentHeader = document.getElementById('content-header');
-  const contentDate = document.getElementById('content-date');
-  const contentTitle = document.getElementById('content-title');
+  const emptyMsg    = document.getElementById('empty-msg');
+  const contentHeader  = document.getElementById('content-header');
+  const contentDate    = document.getElementById('content-date');
+  const contentTitle   = document.getElementById('content-title');
   const contentUrlLink = document.getElementById('content-url-link');
-  const openBtn = document.getElementById('open-btn');
-  const pdfFrame = document.getElementById('pdf-frame');
+  const openBtn     = document.getElementById('open-btn');
+  const pdfText     = document.getElementById('pdf-text');
   const placeholder = document.getElementById('placeholder');
 
   let activeItem = null;
+  let currentTokens = [];
 
-  // Converte "DD/MM/YYYY" → Date per ordinamento (già DESC nel JSON)
+  function escapeRe(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function highlight(str, tokens) {
+    if (!tokens.length) return str;
+    return str.replace(
+      new RegExp(`(${tokens.map(escapeRe).join('|')})`, 'gi'),
+      '<mark>$1</mark>'
+    );
+  }
+
   function renderList(query) {
     const q = query.trim().toLowerCase();
-    const tokens = q ? q.split(/\s+/) : [];
+    currentTokens = q ? q.split(/\s+/) : [];
 
-    // Rimuove vecchi item (non il messaggio vuoto)
     listWrap.querySelectorAll('.pr-item').forEach(el => el.remove());
-
     let count = 0;
 
     COMUNICATI.forEach((rec, idx) => {
       const searchTarget = `${rec.data} ${rec.titolo} ${rec.anno} ${rec.testo || ''}`.toLowerCase();
-      const matches = tokens.length === 0 || tokens.every(t => searchTarget.includes(t));
+      const matches = currentTokens.length === 0 || currentTokens.every(t => searchTarget.includes(t));
       if (!matches) return;
 
       count++;
@@ -334,20 +359,12 @@
       item.className = 'pr-item';
       item.dataset.idx = idx;
 
-      // Highlight
-      const highlightTitle = tokens.length
-        ? rec.titolo.replace(new RegExp(`(${tokens.map(escapeRe).join('|')})`, 'gi'), '<mark>$1</mark>')
-        : rec.titolo;
-      const highlightDate = tokens.length
-        ? rec.data.replace(new RegExp(`(${tokens.map(escapeRe).join('|')})`, 'gi'), '<mark>$1</mark>')
-        : rec.data;
-
       item.innerHTML = `
         <div class="pr-date fs-min">
-          ${highlightDate} ${rec.ora ? '· ' + rec.ora : ''}
+          ${highlight(rec.data, currentTokens)} ${rec.ora ? '· ' + rec.ora : ''}
           <span class="badge-year badge-${rec.anno} fs-min">${rec.anno}</span>
         </div>
-        <div class="pr-title fs-min">${highlightTitle}</div>
+        <div class="pr-title fs-min">${highlight(rec.titolo, currentTokens)}</div>
       `;
 
       item.addEventListener('click', () => selectItem(item, rec));
@@ -358,10 +375,6 @@
     resultCount.textContent = count === COMUNICATI.length
       ? `${count} comunicati`
       : `${count} di ${COMUNICATI.length} comunicati`;
-  }
-
-  function escapeRe(s) {
-    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
   function selectItem(itemEl, rec) {
@@ -375,19 +388,35 @@
     contentUrlLink.textContent = rec.url || '';
     openBtn.href = rec.url || '#';
 
+    // Testo estratto dal PDF con highlight dei termini cercati
+    const rawText = rec.testo || '(testo non disponibile)';
+    pdfText.innerHTML = highlight(rawText.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'), currentTokens);
+    pdfText.scrollTop = 0;
+
+    // Scorri al primo match
+    const firstMark = pdfText.querySelector('mark');
+    if (firstMark) firstMark.scrollIntoView({ block: 'center' });
+
     contentHeader.style.display = 'flex';
     placeholder.style.display = 'none';
-    pdfFrame.style.display = 'block';
-    pdfFrame.src = rec.url || '';
+    pdfText.style.display = 'block';
   }
 
   searchInput.addEventListener('input', () => {
-    activeItem = null; // reset selezione al filtraggio
+    activeItem = null;
     renderList(searchInput.value);
+    // Aggiorna highlight nel testo aperto senza chiuderlo
+    if (pdfText.style.display !== 'none' && pdfText.innerHTML) {
+      const idx = listWrap.querySelector('.pr-item.active')?.dataset.idx;
+      // nessun item attivo dopo reset — ok
+    }
   });
 
-  // Init
   renderList('');
+
+  // Seleziona il primo item di default
+  const firstItem = listWrap.querySelector('.pr-item');
+  if (firstItem) firstItem.click();
 </script>
 </body>
 </html>
