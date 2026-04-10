@@ -249,14 +249,15 @@
       padding: 0 .1em;
       border-radius: 2px;
     }
+
+    .fs-min { font-size: 1rem !important; }
   </style>
 </head>
 <body>
 
 <!-- TOPBAR -->
 <div id="topbar">
-  <div class="brand">CY4<span>GATE</span></div>
-  <div class="subtitle">Comunicati Stampa Finanziari</div>
+  <div class="subtitle fs-min">Comunicati Stampa Finanziari</div>
 </div>
 
 <!-- APP -->
@@ -267,12 +268,12 @@
     <div id="search-wrap">
       <div style="position:relative">
         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input id="search-input" type="text" placeholder="Cerca per titolo o data (es. 2026, contratto)…" autocomplete="off" spellcheck="false">
+        <input id="search-input" class="fs-min" type="text" placeholder="Cerca per titolo o data (es. 2026, contratto)…" autocomplete="off" spellcheck="false">
       </div>
-      <div id="result-count"></div>
+      <div id="result-count" class="fs-min"></div>
     </div>
     <div id="list-wrap">
-      <div id="empty-msg">Nessun comunicato trovato.</div>
+      <div id="empty-msg" class="fs-min">Nessun comunicato trovato.</div>
     </div>
   </div>
 
@@ -280,17 +281,17 @@
   <div id="content">
     <div id="content-header" style="display:none">
       <div id="content-meta">
-        <div id="content-date"></div>
-        <div id="content-title"></div>
-        <a id="content-url-link" target="_blank" rel="noopener"></a>
+        <div id="content-date" class="fs-min"></div>
+        <div id="content-title" class="fs-min"></div>
+        <a id="content-url-link" class="fs-min" target="_blank" rel="noopener"></a>
       </div>
-      <a id="open-btn" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener">
+      <a id="open-btn" class="btn btn-sm btn-outline-primary fs-min" target="_blank" rel="noopener">
         ↗ Apri
       </a>
     </div>
     <div id="placeholder">
       <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-      <p>Seleziona un comunicato dalla sidebar</p>
+      <p class="fs-min">Seleziona un comunicato dalla sidebar</p>
     </div>
     <iframe id="pdf-frame" style="display:none" title="Comunicato stampa"></iframe>
   </div>
@@ -324,7 +325,7 @@
     let count = 0;
 
     COMUNICATI.forEach((rec, idx) => {
-      const searchTarget = `${rec.data} ${rec.titolo} ${rec.anno}`.toLowerCase();
+      const searchTarget = `${rec.data} ${rec.titolo} ${rec.anno} ${rec.testo || ''}`.toLowerCase();
       const matches = tokens.length === 0 || tokens.every(t => searchTarget.includes(t));
       if (!matches) return;
 
@@ -342,11 +343,11 @@
         : rec.data;
 
       item.innerHTML = `
-        <div class="pr-date">
+        <div class="pr-date fs-min">
           ${highlightDate} ${rec.ora ? '· ' + rec.ora : ''}
-          <span class="badge-year badge-${rec.anno}">${rec.anno}</span>
+          <span class="badge-year badge-${rec.anno} fs-min">${rec.anno}</span>
         </div>
-        <div class="pr-title">${highlightTitle}</div>
+        <div class="pr-title fs-min">${highlightTitle}</div>
       `;
 
       item.addEventListener('click', () => selectItem(item, rec));
