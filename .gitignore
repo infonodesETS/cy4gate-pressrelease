@@ -1,2 +1,24 @@
+# Claude Code / Playwright
 .claude/
 .playwright-mcp/
+
+# Snapshot intermedi Playwright
+cy4gate_2024.md
+cy4gate_2025.md
+cy4gate_2026.md
+
+# File derivati / riproducibili
+cy4gate_comunicati_stampa.xlsx
+
+# Script obsoleto
+xlsx_to_json.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# PDF scaricati (riproducibili con scrape_cy4gate.py)
+2024/
+2025/
+2026/
