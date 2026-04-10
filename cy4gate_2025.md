@@ -1,0 +1,347 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e8]:
+    - generic [ref=e11]:
+      - link "Home" [ref=e14] [cursor=pointer]:
+        - /url: /en/
+        - img "Home" [ref=e15]
+      - generic [ref=e16]:
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Careers" [ref=e20] [cursor=pointer]:
+                - /url: /careers/
+            - listitem [ref=e21]:
+              - link "Contact Us" [ref=e22] [cursor=pointer]:
+                - /url: /contact-us/
+            - listitem [ref=e23]:
+              - link "" [ref=e24] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCc6W6DImbJnJTeMAWiNMcrA?view_as=subscriber
+                - generic [ref=e25]: 
+              - link "" [ref=e26] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cy4gate/
+                - generic [ref=e27]: 
+              - link "" [ref=e28] [cursor=pointer]:
+                - /url: https://twitter.com/cy4gate_cyber/
+                - generic [ref=e29]: 
+            - listitem [ref=e30]:
+              - generic [ref=e32] [cursor=pointer]: English 
+        - navigation [ref=e34]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Company" [ref=e38] [cursor=pointer]:
+                - /url: /company/
+            - listitem [ref=e39]:
+              - link "Solutions" [ref=e40] [cursor=pointer]:
+                - /url: /solutions/
+            - listitem [ref=e41]:
+              - link "News" [ref=e42] [cursor=pointer]:
+                - /url: /news/
+            - listitem [ref=e43]:
+              - link "Governance" [ref=e44] [cursor=pointer]:
+                - /url: /company/governance/
+            - listitem [ref=e45]:
+              - link "Investor Relations" [ref=e46] [cursor=pointer]:
+                - /url: /company/investor-relations/
+            - listitem [ref=e47]:
+              - link "ESG" [ref=e48] [cursor=pointer]:
+                - /url: /esg/
+            - listitem [ref=e49]:
+              - link "Media" [ref=e50] [cursor=pointer]:
+                - /url: /company/media/
+            - listitem [ref=e51]:
+              - generic [ref=e52]:
+                - searchbox "Search" [ref=e53]
+                - button "" [ref=e54] [cursor=pointer]:
+                  - generic [ref=e55]: 
+  - generic [ref=e60]:
+    - generic [ref=e66]:
+      - heading "Year 2025" [level=1] [ref=e67]
+      - navigation "breadcrumb" [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "Home" [ref=e71] [cursor=pointer]:
+              - /url: /en/
+          - listitem [ref=e72]:
+            - text: "|"
+            - link "Company" [ref=e73] [cursor=pointer]:
+              - /url: /company/
+          - listitem [ref=e74]:
+            - text: "|"
+            - link "Investor Relations" [ref=e75] [cursor=pointer]:
+              - /url: /company/investor-relations/
+          - listitem [ref=e76]:
+            - text: "|"
+            - link "FINANCIAL PRESS RELEASES" [ref=e77] [cursor=pointer]:
+              - /url: /company/investor-relations/financial-press-releases/
+          - listitem [ref=e78]: "| Year 2025"
+    - generic [ref=e81]:
+      - generic [ref=e84]:
+        - list [ref=e85]:
+          - listitem [ref=e86]: 30/12//2025 7.42
+        - paragraph [ref=e87]:
+          - link "Contract for decision intelligence" [ref=e88] [cursor=pointer]:
+            - /url: /assets/Uploads/PR-Cy4Gate-new-contract-4450-million.pdf
+        - list [ref=e89]:
+          - listitem [ref=e90]: 29/12/2025 18.30
+        - paragraph [ref=e91]:
+          - link "CY4GATE signed contracts for decision intelligence solutions in the defence sector" [ref=e92] [cursor=pointer]:
+            - /url: /assets/Uploads/CY4-PR-Cy4Gate-new-contract-ELT.pdf
+        - list [ref=e93]:
+          - listitem [ref=e94]: 23/12/2025 7.41
+        - paragraph [ref=e95]:
+          - link "Contract for cybersecurity - antifraud" [ref=e96] [cursor=pointer]:
+            - /url: /assets/Uploads/CY4-PR-Cy4Gate-new-contract-cybersecurity-antifraud-last.pdf
+        - list [ref=e97]:
+          - listitem [ref=e98]: 11/12/2025 15.31
+        - paragraph [ref=e99]:
+          - link "Financial Calendar 2026" [ref=e100] [cursor=pointer]:
+            - /url: /assets/Uploads/PR-Cy4Gate-Financial-Calendar-2026.pdf
+        - list [ref=e101]:
+          - listitem [ref=e102]: 02/12/2025 7.41
+        - paragraph [ref=e103]:
+          - link "Contract for Decision Intelligence" [ref=e104] [cursor=pointer]:
+            - /url: /assets/Uploads/251202-CY4-PR-Cy4Gate-new-contract-3-mln.pdf
+        - list [ref=e105]:
+          - listitem [ref=e106]: 13/11/2025 18.51
+        - paragraph [ref=e107]:
+          - link "The Board of Directors of CY4GATE has approved the consolidated financial statements as of September 30, 2025" [ref=e108] [cursor=pointer]:
+            - /url: /assets/Uploads/251113-CY4-PR-9M-2025-last.pdf
+        - list [ref=e109]:
+          - listitem [ref=e110]: 06/11/2025 7.46
+        - paragraph [ref=e111]:
+          - link "Contract for Forensic Intelligence" [ref=e112] [cursor=pointer]:
+            - /url: /assets/Uploads/PR-Cy4Gate-new-contract-ForensicInt-last.pdf
+        - list [ref=e113]:
+          - listitem [ref=e114]: 30/10/2025 7.44
+        - paragraph [ref=e115]:
+          - link "Contract for Decision Intelligence" [ref=e116] [cursor=pointer]:
+            - /url: /assets/Uploads/CY4-PR-Cy4Gate-new-contract-21-mln-clean-eng.pdf
+        - list [ref=e117]:
+          - listitem [ref=e118]: 29/09/2025 7.43
+        - paragraph [ref=e119]:
+          - link "Contract for Decision Intelligence" [ref=e120] [cursor=pointer]:
+            - /url: /assets/Uploads/260929-CY4-PR-Cy4Gate-new-contract-9.9-million.pdf
+        - list [ref=e121]:
+          - listitem [ref=e122]: 17/09/2025 18.37
+        - paragraph [ref=e123]:
+          - link "Denial of article published in the newspaper “Domani”" [ref=e124] [cursor=pointer]:
+            - /url: /assets/Uploads/170925-CY4-Smentita-articolo-Domani-ENG.pdf
+        - list [ref=e125]:
+          - listitem [ref=e126]: 11/09/2025 19.55
+        - paragraph [ref=e127]:
+          - link "Approval of the Consolidated Financial Report as of June 30, 2025" [ref=e128] [cursor=pointer]:
+            - /url: /assets/Uploads/250911-CY4-PR-H1-2025-last.eng.pdf
+        - list [ref=e129]:
+          - listitem [ref=e130]: 31/07/2025 18.01
+        - paragraph [ref=e131]:
+          - link "Lead Indipendent Director appointment" [ref=e132] [cursor=pointer]:
+            - /url: /assets/Uploads/CY4-PR-LID-appointment.pdf
+        - list [ref=e133]:
+          - listitem [ref=e134]: 17/07/2025 7.40
+        - paragraph [ref=e135]:
+          - link "CY4GATE has been awarded a contract with a total value of approximately € 9.9 million lasting 18 months, for decision intelligence solutions for a foreign institutional client" [ref=e136] [cursor=pointer]:
+            - /url: /assets/Uploads/250717-CY4-PR-Cy4Gate-new-contract-9.9-million.pdf
+        - list [ref=e137]:
+          - listitem [ref=e138]: 09/06/2025 19.03
+        - paragraph [ref=e139]:
+          - link "Executive Chairman Appointment Announcement" [ref=e140] [cursor=pointer]:
+            - /url: /assets/Uploads/250609-PR-Cy4-New-Executive-Chairman.pdf
+        - list [ref=e141]:
+          - listitem [ref=e142]: 04/06/2025 7.46
+        - paragraph [ref=e143]:
+          - link "Contracts for cyber security" [ref=e144] [cursor=pointer]:
+            - /url: /assets/Uploads/250604-PR-Cy4Gate-cybersec-contracts-clean.pdf
+        - list [ref=e145]:
+          - listitem [ref=e146]: 28/05/2025 7.45
+        - paragraph [ref=e147]:
+          - link "Contract awards in the area of decision intelligence and cyber security" [ref=e148] [cursor=pointer]:
+            - /url: /assets/Uploads/250528-PR-Cy4Gate-new-contracts-2.3M.pdf
+        - list [ref=e149]:
+          - listitem [ref=e150]: 27/05/2025 10.10
+        - paragraph [ref=e151]:
+          - link "Publication of minutes of the shareholders' meeting" [ref=e152] [cursor=pointer]:
+            - /url: /assets/Uploads/CY4-Minutes-def.pdf
+        - list [ref=e153]:
+          - listitem [ref=e154]: 20/05/2025 7.38
+        - paragraph [ref=e155]:
+          - link "Contract for Decision Intelligence" [ref=e156] [cursor=pointer]:
+            - /url: /assets/Uploads/PR-Cy4Gate-new-contract-Decision.pdf
+        - list [ref=e157]:
+          - listitem [ref=e158]: 14.05.2025 18.42
+        - paragraph [ref=e159]:
+          - link "The Board of Directors of CY4Gate approved consolidated figures as at March 31, 2025" [ref=e160] [cursor=pointer]:
+            - /url: /assets/Uploads/250514-CY4-PR-Q1-2025-last.pdf
+        - list [ref=e161]:
+          - listitem [ref=e162]: 05/05/2025 7.48
+        - paragraph [ref=e163]:
+          - link "CY4GATE participates in a european defense research project" [ref=e164] [cursor=pointer]:
+            - /url: /assets/Uploads/250505-PR-CY4gate-Defence-Research-Project-EDF-.pdf
+        - list [ref=e165]:
+          - listitem [ref=e166]: 28/04/2025 17.30
+        - paragraph [ref=e167]:
+          - link "Approval of the financial statements, presentation of the consolidated financial statements as of 31 December 2024, including the consolidated sustainability reporting" [ref=e168] [cursor=pointer]:
+            - /url: /assets/Uploads/250428-CY4-PR-Shareholders-Meeting.pdf
+        - list [ref=e169]:
+          - listitem [ref=e170]: 16/04/2025 7.36
+        - paragraph [ref=e171]:
+          - link "Contract for decision intelligence solutions" [ref=e172] [cursor=pointer]:
+            - /url: /assets/Uploads/250416-PR-Cy4Gate-new-contracts-2mln-last.pdf
+        - list [ref=e173]:
+          - listitem [ref=e174]: 07/04/2025 15.52
+        - paragraph [ref=e175]:
+          - link "Publication of shareholders' meeting documentation" [ref=e176] [cursor=pointer]:
+            - /url: /assets/Uploads/250407-CY4-PR-Publishing-Documentation.pdf
+        - list [ref=e177]:
+          - listitem [ref=e178]: 31/03/2025 18:39
+        - paragraph [ref=e179]:
+          - link "Publication of shareholders' meeting documentation" [ref=e180] [cursor=pointer]:
+            - /url: /assets/Uploads/250331-CY4-PR-Publishing-Documentation.pdf
+        - list [ref=e181]:
+          - listitem [ref=e182]: 28/03/2025 12.05
+        - paragraph [ref=e183]:
+          - link "Publication of shareholders' meeting documentation" [ref=e184] [cursor=pointer]:
+            - /url: /assets/Uploads/250328-CY4-PR-Documentation-Filing.pdf
+        - list [ref=e186]:
+          - listitem [ref=e187]: 12/03/2025 17.47
+        - paragraph [ref=e188]:
+          - link "The Board of Directors of CY4GATE approves the financial statements and consolidated financial statements, including the sustainability report as of December 31, 2024" [ref=e189] [cursor=pointer]:
+            - /url: /assets/Uploads/250312-CY4-PR-FY24-last.pdf
+        - list [ref=e190]:
+          - listitem [ref=e191]: 07/03/2025 7.50
+        - paragraph [ref=e192]:
+          - link "Contract for decision intelligence solutions" [ref=e193] [cursor=pointer]:
+            - /url: /assets/Uploads/25-03-07-PR-Cy4Gate-New-Contract-Decision-205-mln-ENG-DEF.pdf
+        - list [ref=e194]:
+          - listitem [ref=e195]:
+            - generic [ref=e196]: 03/03/2025 7.48
+        - paragraph [ref=e197]:
+          - link "Contract awarding for decision intelligence solutions" [ref=e198] [cursor=pointer]:
+            - /url: /assets/Uploads/250303-PR-Cy4Gate-Order-January-February-2025-DEF.pdf
+        - list [ref=e199]:
+          - listitem [ref=e200]: 17/02/2025 10.08
+        - paragraph [ref=e201]:
+          - link "Changes to the 2025 financial calendar" [ref=e202] [cursor=pointer]:
+            - /url: /assets/Uploads/250217-CY4-CS-2025-Corporate-Calendar-Events-Changes.pdf
+        - list [ref=e203]:
+          - listitem [ref=e204]: 24/01/2025 19.09
+        - paragraph [ref=e205]:
+          - link "CY4GATE group closes the last days of 2024 by successfully awarding further contracts, worth approximately € 8.5 million with a 2 year term, for cyber security and decision intelligence solutions for national and foreign institutional tech customers" [ref=e206] [cursor=pointer]:
+            - /url: /assets/Uploads/250124-CY4-Preliminary-Data-def.pdf
+        - paragraph [ref=e207]
+      - generic [ref=e210]:
+        - heading "Recent News" [level=3] [ref=e212]
+        - generic [ref=e214]:
+          - heading "CY4GATE GROUP among the key participants at \"Euronext Star Conference 2026\"" [level=5] [ref=e215]:
+            - link "CY4GATE GROUP among the key participants at \"Euronext Star Conference 2026\"" [ref=e216] [cursor=pointer]:
+              - /url: /news/cy4gate-group-among-the-key-participants-at-euronext-star-conference-2026/
+          - generic [ref=e217]: 24/03/2026
+          - img "Logo Cy4 firma" [ref=e218]
+        - generic [ref=e220]:
+          - heading "CY4GATE GROUP participates in the Investor Access Conference in Paris" [level=5] [ref=e221]:
+            - link "CY4GATE GROUP participates in the Investor Access Conference in Paris" [ref=e222] [cursor=pointer]:
+              - /url: /news/cy4gate-group-participates-in-the-investor-access-conference-in-paris-2025/
+          - generic [ref=e223]: 06/10/2025
+          - img "Logo Cy4 firma" [ref=e224]
+        - generic [ref=e226]:
+          - heading "CY4GATE GROUP among the key participants at \"Made In Italy Excellence 2025\" Event" [level=5] [ref=e227]:
+            - link "CY4GATE GROUP among the key participants at \"Made In Italy Excellence 2025\" Event" [ref=e228] [cursor=pointer]:
+              - /url: /news/cy4gate-group-among-the-key-participants-at-made-in-italy-excellence-2025-event/
+          - generic [ref=e229]: 30/09/2025
+          - img "Logo Cy4 firma" [ref=e230]
+    - generic [ref=e235]:
+      - generic [ref=e236]: Get in touch
+      - heading "Request more information" [level=2] [ref=e237]
+      - link "Contact Us" [ref=e238] [cursor=pointer]:
+        - /url: /request-information/
+  - contentinfo [ref=e239]:
+    - generic [ref=e240]:
+      - link [ref=e244] [cursor=pointer]:
+        - /url: /en/
+      - generic [ref=e245]:
+        - generic [ref=e248]:
+          - heading "CY4GATE S.p.A." [level=3] [ref=e249]
+          - heading "ELT Group" [level=4] [ref=e250]:
+            - link "ELT Group" [ref=e251] [cursor=pointer]:
+              - /url: https://www.eltgroup.net/
+          - paragraph [ref=e252]:
+            - text: Via Coponia 8 - 00131 Rome - Italy
+            - text: Phone +39 06 9150 37 00
+            - text: "Fax: +39 06 9150 37 02"
+            - text: C.F. 13129151000
+          - list [ref=e253]:
+            - listitem [ref=e254]:
+              - link "" [ref=e255] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCc6W6DImbJnJTeMAWiNMcrA?view_as=subscriber
+                - generic [ref=e256]: 
+            - listitem [ref=e257]:
+              - link "" [ref=e258] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cy4gate/
+                - generic [ref=e259]: 
+            - listitem [ref=e260]:
+              - link "" [ref=e261] [cursor=pointer]:
+                - /url: https://twitter.com/cy4gate_cyber/
+                - generic [ref=e262]: 
+        - list [ref=e264]:
+          - listitem [ref=e265]:
+            - link "Company" [ref=e266] [cursor=pointer]:
+              - /url: /company/
+            - list [ref=e267]:
+              - listitem [ref=e268]:
+                - link "About US" [ref=e269] [cursor=pointer]:
+                  - /url: /company/investors/
+              - listitem [ref=e270]:
+                - link "Team" [ref=e271] [cursor=pointer]:
+                  - /url: ""
+              - listitem [ref=e272]:
+                - link "Vision" [ref=e273] [cursor=pointer]:
+                  - /url: /company/vision/
+          - listitem [ref=e274]:
+            - link "Solutions" [ref=e275] [cursor=pointer]:
+              - /url: /solutions/
+            - list [ref=e276]:
+              - listitem [ref=e277]:
+                - link "Corporate" [ref=e278] [cursor=pointer]:
+                  - /url: /solutions/corporate-2/
+              - listitem [ref=e279]:
+                - link "Government" [ref=e280] [cursor=pointer]:
+                  - /url: /solutions/government-2/
+          - listitem [ref=e281]:
+            - link "News" [ref=e282] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e283]:
+            - link "Governance" [ref=e284] [cursor=pointer]:
+              - /url: /company/governance/
+          - listitem [ref=e285]:
+            - link "Investor Relations" [ref=e286] [cursor=pointer]:
+              - /url: /company/investor-relations/
+          - listitem [ref=e287]:
+            - link "ESG" [ref=e288] [cursor=pointer]:
+              - /url: /esg/
+          - listitem [ref=e289]:
+            - link "Media" [ref=e290] [cursor=pointer]:
+              - /url: /company/media/
+      - generic [ref=e292]:
+        - generic [ref=e293]:
+          - link "Privacy Policy" [ref=e294] [cursor=pointer]:
+            - /url: https://www.iubenda.com/privacy-policy/34957438
+          - text: "|"
+          - link "Cookie Policy" [ref=e295] [cursor=pointer]:
+            - /url: https://www.cy4gate.com/cookie-policy
+          - text: "|"
+          - link "Update cookies settings" [ref=e296] [cursor=pointer]:
+            - /url: "#"
+          - text: "|"
+          - link "Site Map" [ref=e297] [cursor=pointer]:
+            - /url: /site-map/
+          - text: "|"
+          - link "General conditions of purchase" [ref=e298] [cursor=pointer]:
+            - /url: https://www.cy4gate.com/en/general-conditions-of-purchase-of-cy4gate-s-p-a/
+          - text: "|"
+          - link "Careers" [ref=e299] [cursor=pointer]:
+            - /url: /careers/
+          - text: "|"
+          - link "Contact Us" [ref=e300] [cursor=pointer]:
+            - /url: /contact-us/
+        - generic: 
+  - button "Your consent preferences for tracking technologies" [ref=e301] [cursor=pointer]:
+    - generic [ref=e302]: Your consent preferences for tracking technologies

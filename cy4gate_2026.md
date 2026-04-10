@@ -1,0 +1,231 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e8]:
+    - generic [ref=e11]:
+      - link "Home" [ref=e14] [cursor=pointer]:
+        - /url: /en/
+        - img "Home" [ref=e15]
+      - generic [ref=e16]:
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "Careers" [ref=e20] [cursor=pointer]:
+                - /url: /careers/
+            - listitem [ref=e21]:
+              - link "Contact Us" [ref=e22] [cursor=pointer]:
+                - /url: /contact-us/
+            - listitem [ref=e23]:
+              - link "" [ref=e24] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCc6W6DImbJnJTeMAWiNMcrA?view_as=subscriber
+                - generic [ref=e25]: 
+              - link "" [ref=e26] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cy4gate/
+                - generic [ref=e27]: 
+              - link "" [ref=e28] [cursor=pointer]:
+                - /url: https://twitter.com/cy4gate_cyber/
+                - generic [ref=e29]: 
+            - listitem [ref=e30]:
+              - generic [ref=e32] [cursor=pointer]: English 
+        - navigation [ref=e34]:
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Company" [ref=e38] [cursor=pointer]:
+                - /url: /company/
+            - listitem [ref=e39]:
+              - link "Solutions" [ref=e40] [cursor=pointer]:
+                - /url: /solutions/
+            - listitem [ref=e41]:
+              - link "News" [ref=e42] [cursor=pointer]:
+                - /url: /news/
+            - listitem [ref=e43]:
+              - link "Governance" [ref=e44] [cursor=pointer]:
+                - /url: /company/governance/
+            - listitem [ref=e45]:
+              - link "Investor Relations" [ref=e46] [cursor=pointer]:
+                - /url: /company/investor-relations/
+            - listitem [ref=e47]:
+              - link "ESG" [ref=e48] [cursor=pointer]:
+                - /url: /esg/
+            - listitem [ref=e49]:
+              - link "Media" [ref=e50] [cursor=pointer]:
+                - /url: /company/media/
+            - listitem [ref=e51]:
+              - generic [ref=e52]:
+                - searchbox "Search" [ref=e53]
+                - button "" [ref=e54] [cursor=pointer]:
+                  - generic [ref=e55]: 
+  - generic [ref=e60]:
+    - generic [ref=e66]:
+      - heading "Year 2026" [level=1] [ref=e67]
+      - navigation "breadcrumb" [ref=e68]:
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "Home" [ref=e71] [cursor=pointer]:
+              - /url: /en/
+          - listitem [ref=e72]:
+            - text: "|"
+            - link "Company" [ref=e73] [cursor=pointer]:
+              - /url: /company/
+          - listitem [ref=e74]:
+            - text: "|"
+            - link "Investor Relations" [ref=e75] [cursor=pointer]:
+              - /url: /company/investor-relations/
+          - listitem [ref=e76]:
+            - text: "|"
+            - link "FINANCIAL PRESS RELEASES" [ref=e77] [cursor=pointer]:
+              - /url: /company/investor-relations/financial-press-releases/
+          - listitem [ref=e78]: "| Year 2026"
+    - generic [ref=e81]:
+      - generic [ref=e84]:
+        - list [ref=e85]:
+          - listitem [ref=e86]: 7/04/2026 18.33
+        - paragraph [ref=e87]:
+          - link "Publishing documentation" [ref=e88] [cursor=pointer]:
+            - /url: /assets/Uploads/260407-CY4-PR-Publishing-Documentation.pdf
+        - list [ref=e89]:
+          - listitem [ref=e90]:
+            - generic [ref=e91]: 31/03/2026 18.11
+        - paragraph [ref=e92]:
+          - link "Publishing Documentation" [ref=e93] [cursor=pointer]:
+            - /url: /assets/Uploads/260331-CY4-PR-Publishing-Documentation.pdf
+        - list [ref=e94]:
+          - listitem [ref=e95]: 24/03/2026 7.44
+        - paragraph [ref=e96]:
+          - link "Contract for decision intelligence" [ref=e97] [cursor=pointer]:
+            - /url: /assets/Uploads/CY4-PR-Cy4Gate-new-contract-Decision-Intelligence-last.pdf
+        - list [ref=e98]:
+          - listitem [ref=e99]: 19/03/2026 17.16
+        - paragraph [ref=e100]:
+          - link "Publication Of The Documentation Pertaining To The Ordinary Shareholders’ Meeting" [ref=e101] [cursor=pointer]:
+            - /url: /assets/Uploads/260319-CY4-PR-Documentation-Filing-last.pdf
+        - list [ref=e102]:
+          - listitem [ref=e103]: 12/03/2026 18.57
+        - paragraph [ref=e104]:
+          - link "The Board of Directors of CY4GATE approves the financial statements and consolidated financial statements, including the sustainability report as of December 31, 2025" [ref=e105] [cursor=pointer]:
+            - /url: /assets/Uploads/260312-CY4-PR-FY25-last.pdf
+        - list [ref=e106]:
+          - listitem [ref=e107]: 11/03/2026 7.41
+        - paragraph [ref=e108]:
+          - link "Contract for decision intelligence" [ref=e109] [cursor=pointer]:
+            - /url: /assets/Uploads/CY4-PR-Cy4Gate-new-contract-8-mln-last.pdf
+        - list [ref=e110]:
+          - listitem [ref=e111]: 17/02/2026 7.44
+        - paragraph [ref=e112]:
+          - link "Contract for forensic intelligence" [ref=e113] [cursor=pointer]:
+            - /url: /assets/Uploads/170226-CY4-PR-Cy4Gate-contracts-ForensicInt-last2.pdf
+      - generic [ref=e116]:
+        - heading "Recent News" [level=3] [ref=e118]
+        - generic [ref=e120]:
+          - heading "CY4GATE GROUP among the key participants at \"Euronext Star Conference 2026\"" [level=5] [ref=e121]:
+            - link "CY4GATE GROUP among the key participants at \"Euronext Star Conference 2026\"" [ref=e122] [cursor=pointer]:
+              - /url: /news/cy4gate-group-among-the-key-participants-at-euronext-star-conference-2026/
+          - generic [ref=e123]: 24/03/2026
+          - img "Logo Cy4 firma" [ref=e124]
+        - generic [ref=e126]:
+          - heading "CY4GATE GROUP participates in the Investor Access Conference in Paris" [level=5] [ref=e127]:
+            - link "CY4GATE GROUP participates in the Investor Access Conference in Paris" [ref=e128] [cursor=pointer]:
+              - /url: /news/cy4gate-group-participates-in-the-investor-access-conference-in-paris-2025/
+          - generic [ref=e129]: 06/10/2025
+          - img "Logo Cy4 firma" [ref=e130]
+        - generic [ref=e132]:
+          - heading "CY4GATE GROUP among the key participants at \"Made In Italy Excellence 2025\" Event" [level=5] [ref=e133]:
+            - link "CY4GATE GROUP among the key participants at \"Made In Italy Excellence 2025\" Event" [ref=e134] [cursor=pointer]:
+              - /url: /news/cy4gate-group-among-the-key-participants-at-made-in-italy-excellence-2025-event/
+          - generic [ref=e135]: 30/09/2025
+          - img "Logo Cy4 firma" [ref=e136]
+    - generic [ref=e141]:
+      - generic [ref=e142]: Get in touch
+      - heading "Request more information" [level=2] [ref=e143]
+      - link "Contact Us" [ref=e144] [cursor=pointer]:
+        - /url: /request-information/
+  - contentinfo [ref=e145]:
+    - generic [ref=e146]:
+      - link [ref=e150] [cursor=pointer]:
+        - /url: /en/
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - heading "CY4GATE S.p.A." [level=3] [ref=e155]
+          - heading "ELT Group" [level=4] [ref=e156]:
+            - link "ELT Group" [ref=e157] [cursor=pointer]:
+              - /url: https://www.eltgroup.net/
+          - paragraph [ref=e158]:
+            - text: Via Coponia 8 - 00131 Rome - Italy
+            - text: Phone +39 06 9150 37 00
+            - text: "Fax: +39 06 9150 37 02"
+            - text: C.F. 13129151000
+          - list [ref=e159]:
+            - listitem [ref=e160]:
+              - link "" [ref=e161] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCc6W6DImbJnJTeMAWiNMcrA?view_as=subscriber
+                - generic [ref=e162]: 
+            - listitem [ref=e163]:
+              - link "" [ref=e164] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cy4gate/
+                - generic [ref=e165]: 
+            - listitem [ref=e166]:
+              - link "" [ref=e167] [cursor=pointer]:
+                - /url: https://twitter.com/cy4gate_cyber/
+                - generic [ref=e168]: 
+        - list [ref=e170]:
+          - listitem [ref=e171]:
+            - link "Company" [ref=e172] [cursor=pointer]:
+              - /url: /company/
+            - list [ref=e173]:
+              - listitem [ref=e174]:
+                - link "About US" [ref=e175] [cursor=pointer]:
+                  - /url: /company/investors/
+              - listitem [ref=e176]:
+                - link "Team" [ref=e177] [cursor=pointer]:
+                  - /url: ""
+              - listitem [ref=e178]:
+                - link "Vision" [ref=e179] [cursor=pointer]:
+                  - /url: /company/vision/
+          - listitem [ref=e180]:
+            - link "Solutions" [ref=e181] [cursor=pointer]:
+              - /url: /solutions/
+            - list [ref=e182]:
+              - listitem [ref=e183]:
+                - link "Corporate" [ref=e184] [cursor=pointer]:
+                  - /url: /solutions/corporate-2/
+              - listitem [ref=e185]:
+                - link "Government" [ref=e186] [cursor=pointer]:
+                  - /url: /solutions/government-2/
+          - listitem [ref=e187]:
+            - link "News" [ref=e188] [cursor=pointer]:
+              - /url: /news/
+          - listitem [ref=e189]:
+            - link "Governance" [ref=e190] [cursor=pointer]:
+              - /url: /company/governance/
+          - listitem [ref=e191]:
+            - link "Investor Relations" [ref=e192] [cursor=pointer]:
+              - /url: /company/investor-relations/
+          - listitem [ref=e193]:
+            - link "ESG" [ref=e194] [cursor=pointer]:
+              - /url: /esg/
+          - listitem [ref=e195]:
+            - link "Media" [ref=e196] [cursor=pointer]:
+              - /url: /company/media/
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - link "Privacy Policy" [ref=e200] [cursor=pointer]:
+            - /url: https://www.iubenda.com/privacy-policy/34957438
+          - text: "|"
+          - link "Cookie Policy" [ref=e201] [cursor=pointer]:
+            - /url: https://www.cy4gate.com/cookie-policy
+          - text: "|"
+          - link "Update cookies settings" [ref=e202] [cursor=pointer]:
+            - /url: "#"
+          - text: "|"
+          - link "Site Map" [ref=e203] [cursor=pointer]:
+            - /url: /site-map/
+          - text: "|"
+          - link "General conditions of purchase" [ref=e204] [cursor=pointer]:
+            - /url: https://www.cy4gate.com/en/general-conditions-of-purchase-of-cy4gate-s-p-a/
+          - text: "|"
+          - link "Careers" [ref=e205] [cursor=pointer]:
+            - /url: /careers/
+          - text: "|"
+          - link "Contact Us" [ref=e206] [cursor=pointer]:
+            - /url: /contact-us/
+        - generic: 
+  - button "Your consent preferences for tracking technologies" [ref=e207] [cursor=pointer]:
+    - generic [ref=e208]: Your consent preferences for tracking technologies
