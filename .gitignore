@@ -13,6 +13,9 @@ cy4gate_comunicati_stampa.xlsx
 # Script obsoleto
 xlsx_to_json.py
 
+# Script di estrazione
+extraction.py
+
 # Python cache
 __pycache__/
 *.pyc
